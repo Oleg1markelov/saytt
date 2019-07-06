@@ -1,0 +1,248 @@
+.row {
+    display: flex;
+
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+body {
+    margin: 0px;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+/* МОНИТОР ПЕРВОЙ */
+
+.me-rezume {
+    background-image: url("../img/bg/bg-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.pro-mene {
+    padding-top: 5cm;
+    color: #fff;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.me-name {
+    font-family: "Merriweather", sans-serif;
+    font-size: 56px;
+    
+}
+
+.slogan {
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/* МОНИТОР ВТОРОЙ */
+
+.my-portfolio{
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3cm;
+}
+
+.title {
+    font-family: "Merriweather", sans-serif;
+    font-size: 45px;
+    margin-bottom: 2.3cm;
+    text-align: center;
+
+}
+
+.wraper-work {
+    width: 1200px;
+    height: 300px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.work1 {
+    width: 360px;
+    height: 320px;
+}
+
+.title-portfolio a{
+    font-family: "PT Sans Caption";
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: -7px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 0px solid #000;
+}
+  
+.slogan-portfolio {
+    font-family: "PT Sans Caption";
+    font-size: 80%;
+    
+}
+
+
+/* Наведения вішкой */
+
+.title-portfolio a:hover {
+    color: #1861C7;
+    transition: 1s;
+}
+
+
+/* МОНИТОР ТРЕТИЙ */
+
+.contakt {
+    width: auto;
+    height: 10cm;
+    background-color: #061634;
+
+}
+
+.kontakt-wraper {
+    width: 1000px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contakt1 {
+    margin-top: 70px;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    
+}
+
+.name {
+    color: rgb(255, 255, 255, 0.3);
+    font-size: 25pt;
+    font-family: "PT Sans Caption";
+    margin-bottom: 7px;
+}
+
+.title-contakt {
+    font-size: 11pt;
+    color: rgb(255, 255, 255, 0.3);
+    font-family: "PT Sans Caption";
+
+}
+
+.name2 {
+    margin-top: 10px;
+    font-family: "PT Sans Caption";
+    font-size: 11pt;
+    color: #fff;
+    margin-bottom: 14px;
+
+}
+
+.title-contakt2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.fa-vk {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.fa-youtube {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.fa-facebook-f {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.fa-vk:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.fa-twitter:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.fa-instagram:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.fa-youtube:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.fa-facebook-f:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.name3 {
+    width: 260px;
+    color: rgb(97, 92, 92);
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.name3 a{
+    text-decoration: none;
+    color: rgb(97, 92, 92);
+    border-bottom: 0px solid #000; 
+}
+
+.name3:hover {
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.title-contakt3 {
+    color: rgb(255, 255, 255, 0.3);
+}
